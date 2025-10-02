@@ -1,0 +1,90 @@
+{
+    "name": "CodeRhino Labs Default Rule Set",
+    "rules": [
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "NOT REQUIRED: invalid variable names - just doesn't make sense in most cases since it forces prefix to be added to name"
+        },
+        {
+            "id": "AS0103",
+            "action": "Error",
+            "justification": "REQUIRED: all tables to be included in at least one permission set"
+        },
+        {
+            "id": "AA0470",
+            "action": "Error",
+            "justification": "REQUIRED: all labels with placeholders have comments"
+        },
+        {
+            "id": "AA0218",
+            "action": "Error",
+            "justification": "REQUIRED: tooltips"
+        },
+        {
+            "id": "AA0021",
+            "action": "Error",
+            "justification": "REQUIRED: Variable declarations should be ordered by type"
+        },
+        {
+            "id": "AA0137",
+            "action": "Error",
+            "justification": "REQUIRED: variable is unused"
+        },
+        {
+            "id": "AA0205",
+            "action": "Error",
+            "justification": "REQUIRED: use of unassigned variable"
+        },
+        {
+            "id": "AA0008",
+            "action": "Error",
+            "justification": "REQUIRED: must specify parenthesis"
+        },
+        {
+            "id": "AA0206",
+            "action": "Error",
+            "justification": "REQUIRED: variable initialized but not used"
+        },
+        {
+            "id": "AA0074",
+            "action": "Error",
+            "justification": "REQUIRED: labels must have proper suffix"
+        },
+        {
+            "id": "AA0228",
+            "action": "Error",
+            "justification": "REQUIRED: local method declared but not used"
+        },
+        {
+            "id": "AA0215",
+            "action": "Error",
+            "justification": "REQUIRED: incorrect file name"
+        },
+        {
+            "id": "AA0225",
+            "action": "Error",
+            "justification": "REQUIRED: You must specify a caption in the Caption property for Fields that exist on page objects."
+        },
+        {
+            "id": "AA0226",
+            "action": "Error",
+            "justification": "REQUIRED: The value of the Caption property of Fields must be filled in."
+        },
+        {
+            "id": "AA0234",
+            "action": "Warning",
+            "justification": "WARNING: Tooltip for all fields in tables."
+        },
+        {
+            "id": "AL0606",
+            "action": "Error",
+            "justification": "REQUIRED: No WITH statement usage allowed."
+        },
+        {
+            "id": "AL0679",
+            "action": "Error",
+            "justification": "REQUIRED: The application object is not included in any entitlement and will therefore not be accessible in the cloud."
+        }
+    ]
+}
